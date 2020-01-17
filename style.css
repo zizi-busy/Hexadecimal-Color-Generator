@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.code {
+    padding-left: 30px;
+    font-size: 20px;
+ 
+   
+}
+
+h3 {
+    font-style: italic ;
+    font-size: small;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.flex-container>div {
+    width: 600px;
+    background: pink;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg);
+    text-align: center;
+ 
+    letter-spacing: 2.5px;
+
+    
+}
+input {
+
+    box-shadow: 0px 8px 15px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    border-radius: 45px;
+    cursor: pointer;
+    outline: none;
+  
+}
+
+button {
+    width: 140px;
+    height: 45px;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2ee59d;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+::placeholder {
+    
+    font-size: 10px;
+    font-style: italic;
+
+   
+
+}
+
+.copyButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.inputArea{
+
+    width: 153px;
+    height: 45px;
+   
+ 
+ 
+}
