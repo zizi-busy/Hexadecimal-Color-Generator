@@ -30,7 +30,7 @@
         const stopBtn = document.querySelector(".stoper");
         const genBtn = document.querySelector(".generator");
         const inputt = document.querySelector(".inputArea")
-        inputt.setAttribute('required', '')
+        inputt.setAttribute('required', '')   
 
 
         //FUNCTION with loop  which GENERATES RANDOM COLOR CODE ****************************************
@@ -45,7 +45,8 @@
                 hexaColor += string[index];
             }
             return hexaColor;
-        };
+        };//hexa end
+        
         console.log(generateHexaColor());
 
         //FUNCTION TO which makes GENERATE-BUTTON stop adding more divs or god knows what  
@@ -85,7 +86,7 @@
                 copyBtn.textContent = "copy";
                 colorCode.className = 'code';
 
-                colorCode.textContent = i;
+               // colorCode.textContent = i;
                 colorBoxDiv.style.border = "1px solid white";
 
                 // SET INTERVAL / TIMER FOR GENERATING COLOR every 1 sec****************************************************
@@ -137,8 +138,9 @@
                 copyBtn.addEventListener("click", copyFunction);
 
 
-            }
-        }
+            } //inter end
+        } // generFun end
+
     </script>
 </body>
 ​
